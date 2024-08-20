@@ -17,7 +17,7 @@ dag = DAG(
     'hello_world_dag',
     default_args=default_args,
     description='A simple hello world DAG',
-    schedule_interval='12 55 * * *',
+    schedule_interval='05 13 * * *'
 )
 
 t1 = PythonOperator(
